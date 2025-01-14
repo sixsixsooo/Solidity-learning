@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
-contract TrancferCoins {
+contract TransferCoins {
     address public minter;
     mapping(address => uint) public balances;
 
